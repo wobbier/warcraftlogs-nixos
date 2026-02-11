@@ -5,7 +5,7 @@
 }:
 
 let
-  version = "8.19.33";
+  version = "8.20.17";
   pname = "warcraftlogs";
 
   src = fetchurl {
