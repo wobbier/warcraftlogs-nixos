@@ -10,7 +10,7 @@ let
 
   src = fetchurl {
     url = "https://github.com/RPGLogs/Uploaders-warcraftlogs/releases/download/v${version}/warcraftlogs-v${version}.AppImage";
-    hash = "sha256-sdf7ALa66cFmomlXAD+cbI/zr0lsH2U+pdKwZ7cAVkM=";
+    hash = "sha256-X+XyEvc3Nu9PfKRtF/sSyxCoVluiILjsK9Gntxucy5k=";
   };
 
   appimageContents = appimageTools.extractType1 { inherit pname version src; };
