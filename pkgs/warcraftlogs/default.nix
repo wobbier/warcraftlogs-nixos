@@ -5,12 +5,12 @@
 }:
 
 let
-  version = "9.3.31";
+  version = "9.3.61";
   pname = "warcraftlogs";
 
   src = fetchurl {
     url = "https://github.com/RPGLogs/Uploaders-warcraftlogs/releases/download/v${version}/warcraftlogs-v${version}.AppImage";
-    hash = "sha256-nYibzZfaZ/YGlzkXBsYvRf1qL0dCymvKajS05aaATbM=";
+    hash = "sha256-1BY3G/Ri0tkM3jLLOiT2UCG0F7UdvHhcyWYMJzPBp6Y=";
   };
 
   appimageContents = appimageTools.extractType1 { inherit pname version src; };
